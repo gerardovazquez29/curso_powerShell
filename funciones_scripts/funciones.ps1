@@ -27,9 +27,14 @@ function VerificarServicio {
     param (
         [string]$nombre,
         [string]$equipo = "localhost"
-     )
-    $estado = (Get-Service -Name $nombre -ComputerName $equipo).Status
-    Write-Host "[$equipo] Servicio $nombre ==> $estado"
+    )
+    try {
+        $estado = (Get-Service -Name $nombre -ComputerName $equipo).Status
+        Write-Host "[$equipo] Servicio $nombre ==> $estado"    
+    }
+    catch {
+        Write-Host "[$equipo] Error: No se encontro el servicio '$nombre' o el equipo no es accesible." -ForegroundColor Red
+    }
 }
 
 VerificarServicio -nombre "WinRM"
