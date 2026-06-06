@@ -29,8 +29,8 @@ function VerificarServicio {
         [string]$equipo = "localhost"
     )
     try {
-        $estado = (Get-Service -Name $nombre -ComputerName $equipo).Status
-        Write-Host "[$equipo] Servicio $nombre ==> $estado"    
+        $estado = (Get-Service -Name $nombre -ComputerName $equipo -ErrorAction Stop).Status
+        Write-Host "[$equipo] Servicio $nombre ==> $estado" -ForegroundColor Green    
     }
     catch {
         Write-Host "[$equipo] Error: No se encontro el servicio '$nombre' o el equipo no es accesible." -ForegroundColor Red
