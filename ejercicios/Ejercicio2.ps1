@@ -133,3 +133,31 @@ VerificadorServicios -servicios @("Apache2.4", "Appinfo", "AppXSvc", "AudioEndpo
 Write-Host "==== INFO DISCO C ====" -ForegroundColor Cyan
 InfoDiscoC
 
+<#
+==== DIAGNOSTICO DE RED ====
+IP             Responde Timestamp
+--             -------- ---------
+192.168.241.10    False 08/06/2026 10:50:33 a. m.
+
+
+IP           Responde
+--           --------
+192.168.1.4      True
+192.168.1.1      True
+10.10.10.1       True
+172.31.112.1     True
+
+
+==== ESTADO DE SERVICIOS ====
+
+Servicio             Responde
+--------             --------
+Apache2.4            {Running, Running, Stopped, Running}
+Appinfo              {Running, Running, Stopped, Running}
+AppXSvc              {Running, Running, Stopped, Running}
+AudioEndpointBuilder {Running, Running, Stopped, Running}
+
+
+==== INFO DISCO C ====
+Espacio OK en Disco (64.12 GB libres)
+#>
