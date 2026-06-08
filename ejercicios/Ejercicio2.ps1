@@ -103,7 +103,7 @@ function VerificadorServicios {
         [string[]]$servicios
     )
     foreach ($servicio in $servicios) {
-        $estado = (Get-Service -Name $servicios).Status
+        $estado = (Get-Service -Name $servicio -ErrorAction SilentlyContinue).Status
 
         [PSCustomObject]@{
             Servicio = $servicio
@@ -152,10 +152,10 @@ IP           Responde
 
 Servicio             Responde
 --------             --------
-Apache2.4            {Running, Running, Stopped, Running}
-Appinfo              {Running, Running, Stopped, Running}
-AppXSvc              {Running, Running, Stopped, Running}
-AudioEndpointBuilder {Running, Running, Stopped, Running}
+Apache2.4             Running
+Appinfo               Running
+AppXSvc               Running
+AudioEndpointBuilder  Running
 
 
 ==== INFO DISCO C ====
