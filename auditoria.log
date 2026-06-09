@@ -1,0 +1,8 @@
+[09/06/2026 09:15:57] [info] Servicio 'WinDefend' encontrado --> Running
+[09/06/2026 09:15:57] [info] Servicio 'Spooler' encontrado --> Running
+[09/06/2026 09:15:57] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
+[09/06/2026 09:15:57] [info] Servicio 'WinRM' encontrado --> Stopped
+[09/06/2026 09:18:39] [info] Servicio 'WinDefend' encontrado --> Running
+[09/06/2026 09:18:39] [info] Servicio 'Spooler' encontrado --> Running
+[09/06/2026 09:18:39] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
+[09/06/2026 09:18:39] [info] Servicio 'WinRM' encontrado --> Stopped
