@@ -33,7 +33,17 @@ Debe recibir un $mensaje y un $tipo (Info, Warning, Error).
 Debe guardar en un archivo auditoria.log algo como: [08/06/2026] [ERROR] El servicio X falló.
 #>
 
-
+function RegistrarActividad {
+    param (
+        [string]$mensaje,
+        [validaset("info","Warning","Error")]
+        [string]$tipo = "info"
+    )
+    $ruta = "C:\Users\T-City\OneDrive\Documentos\PowerShellScripts\Auditoria.log"
+    $fecha = Get-Date -Format "dd/mm/yyyy HH:mm:ss"
+    Add-Content -Path $ruta -Value "[$fecha] [$tipo] $mensaje"
+    Write-Host "[$tipo] $mensaje" -ForegroundColor 
+}
 
 
 

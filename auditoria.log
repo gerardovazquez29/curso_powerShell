@@ -6,3 +6,21 @@
 [09/06/2026 09:18:39] [info] Servicio 'Spooler' encontrado --> Running
 [09/06/2026 09:18:39] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
 [09/06/2026 09:18:39] [info] Servicio 'WinRM' encontrado --> Stopped
+[10/06/2026 08:55:10] [info] Servicio 'WinDefend' encontrado --> Running
+[10/06/2026 08:55:10] [Error] Servicio 'WinDefend' No encontrado: Falta un argumento para el parámetro 'ForegroundColor'. Especifique un parámetro del tipo 'System.ConsoleColor' e inténtelo de nuevo.
+[10/06/2026 08:55:11] [info] Servicio 'Spooler' encontrado --> Running
+[10/06/2026 08:55:11] [Error] Servicio 'Spooler' No encontrado: Falta un argumento para el parámetro 'ForegroundColor'. Especifique un parámetro del tipo 'System.ConsoleColor' e inténtelo de nuevo.
+[10/06/2026 08:55:11] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
+[10/06/2026 08:55:11] [info] Servicio 'WinRM' encontrado --> Stopped
+[10/06/2026 08:55:11] [Error] Servicio 'WinRM' No encontrado: Falta un argumento para el parámetro 'ForegroundColor'. Especifique un parámetro del tipo 'System.ConsoleColor' e inténtelo de nuevo.
+[10/06/2026 08:55:33] [info] Servicio 'WinDefend' encontrado --> Running
+[10/06/2026 08:55:33] [Error] Servicio 'WinDefend' No encontrado: Falta un argumento para el parámetro 'ForegroundColor'. Especifique un parámetro del tipo 'System.ConsoleColor' e inténtelo de nuevo.
+[10/06/2026 08:55:34] [info] Servicio 'Spooler' encontrado --> Running
+[10/06/2026 08:55:34] [Error] Servicio 'Spooler' No encontrado: Falta un argumento para el parámetro 'ForegroundColor'. Especifique un parámetro del tipo 'System.ConsoleColor' e inténtelo de nuevo.
+[10/06/2026 08:55:34] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
+[10/06/2026 08:55:34] [info] Servicio 'WinRM' encontrado --> Stopped
+[10/06/2026 08:55:34] [Error] Servicio 'WinRM' No encontrado: Falta un argumento para el parámetro 'ForegroundColor'. Especifique un parámetro del tipo 'System.ConsoleColor' e inténtelo de nuevo.
+[10/06/2026 08:55:49] [info] Servicio 'WinDefend' encontrado --> Running
+[10/06/2026 08:55:49] [info] Servicio 'Spooler' encontrado --> Running
+[10/06/2026 08:55:49] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
+[10/06/2026 08:55:49] [info] Servicio 'WinRM' encontrado --> Stopped
