@@ -24,3 +24,36 @@
 [10/06/2026 08:55:49] [info] Servicio 'Spooler' encontrado --> Running
 [10/06/2026 08:55:49] [Error] Servicio 'ServicioFalso' No encontrado: No se encuentra ningún servicio con el nombre 'ServicioFalso'.
 [10/06/2026 08:55:49] [info] Servicio 'WinRM' encontrado --> Stopped
+[10/06/2026 16:45:01] [INFO] El Servicio DNS inicio correctamente
+[10/06/2026 16:45:01] [WARNING] El disco C: esta al 90% de uso
+[10/06/2026 16:45:01] [ERROR] El servicio DHCP fallo
+[10/06/2026 17:41:46] [INFO] El Servicio DNS inicio correctamente
+[10/06/2026 17:41:46] [WARNING] El disco C: esta al 90% de uso
+[10/06/2026 17:41:46] [ERROR] El servicio DHCP fallo
+[10/06/2026 17:41:46] [INFO] El servicio Apache2.4 fue consultado correctamente. Estado: Running
+[10/06/2026 17:41:46] [INFO] El servicio Appinfo fue consultado correctamente. Estado: Running
+[10/06/2026 17:41:46] [INFO] El servicio AppXSvc fue consultado correctamente. Estado: Running
+[10/06/2026 17:41:46] [INFO] El servicio AudioEndpointBuilder fue consultado correctamente. Estado: Running
+[10/06/2026 17:42:31] [INFO] El Servicio DNS inicio correctamente
+[10/06/2026 17:42:31] [WARNING] El disco C: esta al 90% de uso
+[10/06/2026 17:42:31] [ERROR] El servicio DHCP fallo
+[10/06/2026 17:42:31] [INFO] El servicio Apache2.4 fue consultado correctamente. Estado: Running
+[10/06/2026 17:42:31] [INFO] El servicio Appinfo fue consultado correctamente. Estado: Running
+[10/06/2026 17:42:31] [INFO] El servicio AppXSvc fue consultado correctamente. Estado: Running
+[10/06/2026 17:42:31] [INFO] El servicio AudioEndpointBuilder fue consultado correctamente. Estado: Running
+[10/06/2026 17:46:05] [INFO] El Servicio DNS inicio correctamente
+[10/06/2026 17:46:05] [WARNING] El disco C: esta al 90% de uso
+[10/06/2026 17:46:05] [ERROR] El servicio DHCP fallo
+[10/06/2026 17:46:05] [INFO] El servicio Apache2.4 fue consultado correctamente. Estado: Running
+[10/06/2026 17:46:05] [INFO] El servicio Appinfo fue consultado correctamente. Estado: Running
+[10/06/2026 17:46:05] [INFO] El servicio AppXSvc fue consultado correctamente. Estado: Running
+[10/06/2026 17:46:05] [INFO] El servicio AudioEndpointBuilder fue consultado correctamente. Estado: Running
+[10/06/2026 17:46:05] [ERROR] Error al consultar el servicio servicioFallo.No fue encontrado o no pudo obtenerse. Detalle: No se encuentra ningún servicio con el nombre 'servicioFallo'.
+[10/06/2026 17:51:35] [INFO] El Servicio DNS inicio correctamente
+[10/06/2026 17:51:35] [WARNING] El disco C: esta al 90% de uso
+[10/06/2026 17:51:35] [ERROR] El servicio DHCP fallo
+[10/06/2026 17:51:35] [INFO] El servicio Apache2.4 fue consultado correctamente. Estado: Running
+[10/06/2026 17:51:35] [INFO] El servicio Appinfo fue consultado correctamente. Estado: Running
+[10/06/2026 17:51:35] [INFO] El servicio AppXSvc fue consultado correctamente. Estado: Running
+[10/06/2026 17:51:35] [INFO] El servicio AudioEndpointBuilder fue consultado correctamente. Estado: Running
+[10/06/2026 17:51:35] [ERROR] Error al consultar el servicio servicioFallo.No fue encontrado o no pudo obtenerse. Detalle: No se encuentra ningún servicio con el nombre 'servicioFallo'.
